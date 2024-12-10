@@ -83,5 +83,5 @@ The project delivers:
 * Visualizations and metrics to evaluate model performance.
 
 # Conclusion
-_______
+
 This project demonstrates the application of Deep Learning in healthcare for predicting disease progression. By leveraging an ANN, we provide a tool for understanding diabetes dynamics and aiding in effective clinical decision-making.
