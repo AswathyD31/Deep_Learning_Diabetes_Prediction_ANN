@@ -24,7 +24,7 @@ A continuous measure of diabetes progression after one year.
 
 * Load the dataset using sklearn.datasets.load_diabetes.
   
-* Normalize the features using Min-Max Scaling for better compatibility with ANN models.
+* Scaling is already done in dataset.
   
 * Handle outliers and transform skewed features to improve data quality.
 
