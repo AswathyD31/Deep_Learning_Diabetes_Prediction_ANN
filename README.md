@@ -55,27 +55,33 @@ A continuous measure of diabetes progression after one year.
 
 ## Insights and Analysis:
 
-Provide a detailed interpretation of the model results.
-Highlight the most significant features influencing diabetes progression.
-Technical Requirements
-Programming Language: Python
-Libraries Used:
-sklearn for loading the dataset and preprocessing
-numpy and pandas for data manipulation
-matplotlib and seaborn for visualization
-tensorflow/keras for building and training the ANN
-Key Results
+* Provide a detailed interpretation of the model results.
+  
+* Highlight the most significant features influencing diabetes progression.
+
+## Technical Requirements
+
+* Programming Language: Python
+  
+### Libraries Used:
+
+* sklearn for loading the dataset and preprocessing
+  
+* numpy and pandas for data manipulation
+  
+* matplotlib and seaborn for visualization
+ 
+* tensorflow/keras for building and training the ANN
+
+## Key Results
 The project delivers:
 
-A trained ANN model capable of predicting diabetes progression with reasonable accuracy.
-Insights into the most influential features affecting diabetes progression.
-Visualizations and metrics to evaluate model performance.
-How to Run
-Install the required Python libraries:
-bash
-Copy code
-pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
-Clone or download the project files.
-Run the Jupyter Notebook or Python script step by step to reproduce the results.
-Conclusion
+* A trained ANN model capable of predicting diabetes progression with reasonable accuracy.
+  
+* Insights into the most influential features affecting diabetes progression.
+  
+* Visualizations and metrics to evaluate model performance.
+
+# Conclusion
+_______
 This project demonstrates the application of Deep Learning in healthcare for predicting disease progression. By leveraging an ANN, we provide a tool for understanding diabetes dynamics and aiding in effective clinical decision-making.
