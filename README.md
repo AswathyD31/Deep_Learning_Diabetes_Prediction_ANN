@@ -14,13 +14,13 @@ The dataset used is the Diabetes Dataset from the sklearn library. It includes 1
 + Blood Pressure
 + Six blood serum measurements: S1 to S6
 
-+Target:
++ Target:
 
 A continuous measure of diabetes progression after one year.
 
 # Steps Involved
 
-Loading and Preprocessing the Dataset:
+## Loading and Preprocessing the Dataset:
 
 * Load the dataset using sklearn.datasets.load_diabetes.
   
@@ -28,24 +28,32 @@ Loading and Preprocessing the Dataset:
   
 * Handle outliers and transform skewed features to improve data quality.
 
-# Exploratory Data Analysis (EDA):
+## Exploratory Data Analysis (EDA):
 
-Visualize the distribution of features and the target variable.
-Understand relationships between features and the target using scatterplots and correlation matrices.
-Model Building:
+* Visualize the distribution of features and the target variable.
+* Understand relationships between features and the target using scatterplots and correlation matrices.
 
-Design and implement a simple ANN architecture using TensorFlow/Keras.
-Incorporate at least one hidden layer with appropriate activation functions (e.g., ReLU for hidden layers and linear for the output layer).
-Model Training and Evaluation:
+## Model Building:
 
-Split the data into training and testing sets.
-Train the ANN using a suitable loss function (e.g., Mean Squared Error) and optimizer (e.g., Adam).
-Evaluate model performance using metrics such as Mean Squared Error (MSE) and R² Score.
-Improving the Model:
+* Design and implement a simple ANN architecture using TensorFlow/Keras.
+  
+* Incorporate at least one hidden layer with appropriate activation functions (e.g., ReLU for hidden layers and linear for the output layer).
+  
+## Model Training and Evaluation:
 
-Experiment with hyperparameters (e.g., learning rate, batch size) and architectures (e.g., number of layers and neurons) to enhance performance.
-Compare the performance of the improved model with the baseline ANN.
-Insights and Analysis:
+* Split the data into training and testing sets.
+  
+* Train the ANN using a suitable loss function (e.g., Mean Squared Error) and optimizer (e.g., Adam).
+  
+* Evaluate model performance using metrics such as Mean Squared Error (MSE) and R² Score.
+
+## Improving the Model:
+
+* Experiment with hyperparameters (e.g., learning rate, batch size) and architectures (e.g., number of layers and neurons) to enhance performance.
+  
+* Compare the performance of the improved model with the baseline ANN.
+
+## Insights and Analysis:
 
 Provide a detailed interpretation of the model results.
 Highlight the most significant features influencing diabetes progression.
